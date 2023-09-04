@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.emoji {
+    display: flex;
+    justify-content: center;
+    font-size: 2px;
+}
+
+
+button {
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 15px;
+
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+
+}
+
+
+button:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+}
+
+
+#result_output {
+    color: blue;
+}
+
+#ME {
+    color: green;
+    font-size: 25px;
+}
+
+#PC {
+    color: red;
+    font-size: 25px;
+}
